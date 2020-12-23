@@ -1,0 +1,819 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?xml-stylesheet type="text/css" href="" ?&gt;
+&lt;kml xmlns="http://www.opengis.net/kml/2.2"&gt;
+
+&lt;!-- To use this generic KML file.                                     --&gt;
+&lt;!--                                                                                      --&gt;
+&lt;!--  Save this file to your computer as a text or XML file with the extension .kml .     --&gt;
+&lt;!--  This is the preferred way if this file is to be used repeatedly, since              --&gt;
+&lt;!--  it permits fastest loading of the file.  In Google Earth, use                       --&gt;
+&lt;!--  File | Open | yourfilename.kml to import the .kml file data.                        --&gt;
+&lt;!--                                                                                      --&gt;
+&lt;!-- These generated .kml files are provided free of charge by the                        --&gt;
+&lt;!-- Federal Communications Commission and no restriction is set by the FCC on their      --&gt;
+&lt;!-- use. No warranty, guarantee of accuracy, or any other limitation applies to the      --&gt;
+&lt;!-- use of these KML files.  They are to be used at your own risk.                       --&gt;
+&lt;!--                                                                                      --&gt;
+&lt;!-- Users are solely responsible for determining any restrictions on use or              --&gt;
+&lt;!-- redistribution of maps generated from this KML file.  Check your the product's       --&gt;
+&lt;!-- licensing and documentation for such restrictions.                                   --&gt;
+&lt;!--                                                                                      --&gt;
+
+&lt;Document&gt;
+
+  &lt;name&gt;60 dBu Service Contour for WCPE, 89.7 MHz, Raleigh, NC&lt;/name&gt;
+  &lt;open&gt;1&lt;/open&gt;
+  &lt;!-- This defines our vantage point, looking down at the contour.  --&gt;  
+  &lt;LookAt&gt;
+     &lt;longitude&gt;-78.478890&lt;/longitude&gt;
+     &lt;latitude&gt;35.940430&lt;/latitude&gt;
+     &lt;altitude&gt;&lt;/altitude&gt;
+     &lt;tilt&gt;0&lt;/tilt&gt;
+     &lt;range&gt;236259&lt;/range&gt; &lt;!-- meters --&gt;
+  &lt;/LookAt&gt;
+
+  &lt;!-- We define a pushpin to mark the center point we are working with.  --&gt; 
+  &lt;Placemark&gt; 
+     &lt;name&gt;WCPE, Raleigh, NC&lt;/name&gt;
+     &lt;description&gt;
+89.7 MHz --  FCC File No. &lt;/description&gt;
+     &lt;Point&gt;  
+         &lt;coordinates&gt;-78.478890,35.940430,0&lt;/coordinates&gt;
+     &lt;/Point&gt; 
+  &lt;/Placemark&gt;
+
+    &lt;Style id='hue1'&gt;
+        &lt;LineStyle&gt;
+           &lt;color&gt;77DFFF11&lt;/color&gt;
+           &lt;!-- RGB color 11FFDF becomes 77DFFF11                       --&gt;
+           &lt;!-- where the two leftmost digits represent opacity (alpha) values, and  --&gt;
+           &lt;!-- where the last six hexadecimal characters represent color as B G R   --&gt;
+           &lt;width&gt;5&lt;/width&gt; &lt;!-- in pixels --&gt;
+        &lt;/LineStyle&gt;
+    &lt;/Style&gt;
+
+  &lt;Placemark id='WCPE-697970    -0'&gt;
+    &lt;name&gt;60 dBu Service contour&lt;/name&gt;
+&lt;visibility&gt;1&lt;/visibility&gt;
+    &lt;styleUrl&gt;#hue1&lt;/styleUrl&gt;
+       &lt;LineString&gt;
+          &lt;tessellate&gt;1&lt;/tessellate&gt;
+          &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+          &lt;coordinates&gt;
+&lt;!-- 360 degrees azimuth --&gt; -78.464200,36.615730,0 
+&lt;!-- 359 degrees azimuth --&gt; -78.478890,36.615630,0 
+&lt;!-- 358 degrees azimuth --&gt; -78.493570,36.615400,0 
+&lt;!-- 357 degrees azimuth --&gt; -78.508230,36.614890,0 
+&lt;!-- 356 degrees azimuth --&gt; -78.522890,36.614300,0 
+&lt;!-- 355 degrees azimuth --&gt; -78.537530,36.613510,0 
+&lt;!-- 354 degrees azimuth --&gt; -78.552160,36.612650,0 
+&lt;!-- 353 degrees azimuth --&gt; -78.566760,36.611510,0 
+&lt;!-- 352 degrees azimuth --&gt; -78.581330,36.610100,0 
+&lt;!-- 351 degrees azimuth --&gt; -78.595890,36.608680,0 
+&lt;!-- 350 degrees azimuth --&gt; -78.610490,36.607380,0 
+&lt;!-- 349 degrees azimuth --&gt; -78.625040,36.605740,0 
+&lt;!-- 348 degrees azimuth --&gt; -78.639480,36.603580,0 
+&lt;!-- 347 degrees azimuth --&gt; -78.653850,36.601140,0 
+&lt;!-- 346 degrees azimuth --&gt; -78.668150,36.598440,0 
+&lt;!-- 345 degrees azimuth --&gt; -78.682380,36.595530,0 
+&lt;!-- 344 degrees azimuth --&gt; -78.696560,36.592500,0 
+&lt;!-- 343 degrees azimuth --&gt; -78.710700,36.589320,0 
+&lt;!-- 342 degrees azimuth --&gt; -78.724660,36.585690,0 
+&lt;!-- 341 degrees azimuth --&gt; -78.738390,36.581490,0 
+&lt;!-- 340 degrees azimuth --&gt; -78.751870,36.576790,0 
+&lt;!-- 339 degrees azimuth --&gt; -78.765280,36.572030,0 
+&lt;!-- 338 degrees azimuth --&gt; -78.778710,36.567390,0 
+&lt;!-- 337 degrees azimuth --&gt; -78.792340,36.563180,0 
+&lt;!-- 336 degrees azimuth --&gt; -78.806140,36.559260,0 
+&lt;!-- 335 degrees azimuth --&gt; -78.819900,36.555210,0 
+&lt;!-- 334 degrees azimuth --&gt; -78.833540,36.550890,0 
+&lt;!-- 333 degrees azimuth --&gt; -78.847100,36.546380,0 
+&lt;!-- 332 degrees azimuth --&gt; -78.860570,36.541670,0 
+&lt;!-- 331 degrees azimuth --&gt; -78.873870,36.536650,0 
+&lt;!-- 330 degrees azimuth --&gt; -78.887100,36.531500,0 
+&lt;!-- 329 degrees azimuth --&gt; -78.900280,36.526210,0 
+&lt;!-- 328 degrees azimuth --&gt; -78.913220,36.520560,0 
+&lt;!-- 327 degrees azimuth --&gt; -78.925770,36.514390,0 
+&lt;!-- 326 degrees azimuth --&gt; -78.938010,36.507830,0 
+&lt;!-- 325 degrees azimuth --&gt; -78.950100,36.501090,0 
+&lt;!-- 324 degrees azimuth --&gt; -78.962140,36.494290,0 
+&lt;!-- 323 degrees azimuth --&gt; -78.974110,36.487430,0 
+&lt;!-- 322 degrees azimuth --&gt; -78.986180,36.480660,0 
+&lt;!-- 321 degrees azimuth --&gt; -78.998370,36.473980,0 
+&lt;!-- 320 degrees azimuth --&gt; -79.010260,36.466970,0 
+&lt;!-- 319 degrees azimuth --&gt; -79.021840,36.459630,0 
+&lt;!-- 318 degrees azimuth --&gt; -79.033320,36.452180,0 
+&lt;!-- 317 degrees azimuth --&gt; -79.045090,36.444950,0 
+&lt;!-- 316 degrees azimuth --&gt; -79.056760,36.437590,0 
+&lt;!-- 315 degrees azimuth --&gt; -79.067940,36.429780,0 
+&lt;!-- 314 degrees azimuth --&gt; -79.078550,36.421470,0 
+&lt;!-- 313 degrees azimuth --&gt; -79.089150,36.413150,0 
+&lt;!-- 312 degrees azimuth --&gt; -79.100120,36.405080,0 
+&lt;!-- 311 degrees azimuth --&gt; -79.111100,36.396980,0 
+&lt;!-- 310 degrees azimuth --&gt; -79.121680,36.388530,0 
+&lt;!-- 309 degrees azimuth --&gt; -79.131700,36.379680,0 
+&lt;!-- 308 degrees azimuth --&gt; -79.141400,36.370590,0 
+&lt;!-- 307 degrees azimuth --&gt; -79.150970,36.361410,0 
+&lt;!-- 306 degrees azimuth --&gt; -79.160270,36.352040,0 
+&lt;!-- 305 degrees azimuth --&gt; -79.169450,36.342580,0 
+&lt;!-- 304 degrees azimuth --&gt; -79.178480,36.333030,0 
+&lt;!-- 303 degrees azimuth --&gt; -79.187580,36.323480,0 
+&lt;!-- 302 degrees azimuth --&gt; -79.196420,36.313770,0 
+&lt;!-- 301 degrees azimuth --&gt; -79.204970,36.303880,0 
+&lt;!-- 300 degrees azimuth --&gt; -79.213100,36.293770,0 
+&lt;!-- 299 degrees azimuth --&gt; -79.220810,36.283440,0 
+&lt;!-- 298 degrees azimuth --&gt; -79.228280,36.273000,0 
+&lt;!-- 297 degrees azimuth --&gt; -79.235680,36.262510,0 
+&lt;!-- 296 degrees azimuth --&gt; -79.243140,36.252040,0 
+&lt;!-- 295 degrees azimuth --&gt; -79.250380,36.241450,0 
+&lt;!-- 294 degrees azimuth --&gt; -79.257310,36.230720,0 
+&lt;!-- 293 degrees azimuth --&gt; -79.263570,36.219730,0 
+&lt;!-- 292 degrees azimuth --&gt; -79.269130,36.208500,0 
+&lt;!-- 291 degrees azimuth --&gt; -79.274370,36.197170,0 
+&lt;!-- 290 degrees azimuth --&gt; -79.279750,36.185890,0 
+&lt;!-- 289 degrees azimuth --&gt; -79.285260,36.174650,0 
+&lt;!-- 288 degrees azimuth --&gt; -79.290530,36.163320,0 
+&lt;!-- 287 degrees azimuth --&gt; -79.295320,36.151860,0 
+&lt;!-- 286 degrees azimuth --&gt; -79.300330,36.140450,0 
+&lt;!-- 285 degrees azimuth --&gt; -79.305800,36.129110,0 
+&lt;!-- 284 degrees azimuth --&gt; -79.311430,36.117760,0 
+&lt;!-- 283 degrees azimuth --&gt; -79.316900,36.106320,0 
+&lt;!-- 282 degrees azimuth --&gt; -79.321000,36.094590,0 
+&lt;!-- 281 degrees azimuth --&gt; -79.323820,36.082610,0 
+&lt;!-- 280 degrees azimuth --&gt; -79.325500,36.070470,0 
+&lt;!-- 279 degrees azimuth --&gt; -79.326900,36.058330,0 
+&lt;!-- 278 degrees azimuth --&gt; -79.328370,36.046220,0 
+&lt;!-- 277 degrees azimuth --&gt; -79.329560,36.034110,0 
+&lt;!-- 276 degrees azimuth --&gt; -79.331150,36.022050,0 
+&lt;!-- 275 degrees azimuth --&gt; -79.331420,36.009900,0 
+&lt;!-- 274 degrees azimuth --&gt; -79.331420,35.997760,0 
+&lt;!-- 273 degrees azimuth --&gt; -79.331890,35.985680,0 
+&lt;!-- 272 degrees azimuth --&gt; -79.332510,35.973610,0 
+&lt;!-- 271 degrees azimuth --&gt; -79.333360,35.961550,0 
+&lt;!-- 270 degrees azimuth --&gt; -79.333940,35.949480,0 
+&lt;!-- 269 degrees azimuth --&gt; -79.334350,35.937390,0 
+&lt;!-- 268 degrees azimuth --&gt; -79.334010,35.925310,0 
+&lt;!-- 267 degrees azimuth --&gt; -79.333000,35.913250,0 
+&lt;!-- 266 degrees azimuth --&gt; -79.331730,35.901210,0 
+&lt;!-- 265 degrees azimuth --&gt; -79.330450,35.889180,0 
+&lt;!-- 264 degrees azimuth --&gt; -79.329470,35.877130,0 
+&lt;!-- 263 degrees azimuth --&gt; -79.328560,35.865060,0 
+&lt;!-- 262 degrees azimuth --&gt; -79.326830,35.853060,0 
+&lt;!-- 261 degrees azimuth --&gt; -79.324590,35.841110,0 
+&lt;!-- 260 degrees azimuth --&gt; -79.321860,35.829230,0 
+&lt;!-- 259 degrees azimuth --&gt; -79.318400,35.817470,0 
+&lt;!-- 258 degrees azimuth --&gt; -79.314440,35.805810,0 
+&lt;!-- 257 degrees azimuth --&gt; -79.310720,35.794140,0 
+&lt;!-- 256 degrees azimuth --&gt; -79.307310,35.782430,0 
+&lt;!-- 255 degrees azimuth --&gt; -79.303960,35.770700,0 
+&lt;!-- 254 degrees azimuth --&gt; -79.300360,35.759010,0 
+&lt;!-- 253 degrees azimuth --&gt; -79.296430,35.747400,0 
+&lt;!-- 252 degrees azimuth --&gt; -79.291940,35.735910,0 
+&lt;!-- 251 degrees azimuth --&gt; -79.287360,35.724460,0 
+&lt;!-- 250 degrees azimuth --&gt; -79.282690,35.713020,0 
+&lt;!-- 249 degrees azimuth --&gt; -79.277700,35.701680,0 
+&lt;!-- 248 degrees azimuth --&gt; -79.272540,35.690380,0 
+&lt;!-- 247 degrees azimuth --&gt; -79.267370,35.679080,0 
+&lt;!-- 246 degrees azimuth --&gt; -79.262180,35.667770,0 
+&lt;!-- 245 degrees azimuth --&gt; -79.256960,35.656440,0 
+&lt;!-- 244 degrees azimuth --&gt; -79.251200,35.645290,0 
+&lt;!-- 243 degrees azimuth --&gt; -79.245280,35.634190,0 
+&lt;!-- 242 degrees azimuth --&gt; -79.239320,35.623080,0 
+&lt;!-- 241 degrees azimuth --&gt; -79.233340,35.611940,0 
+&lt;!-- 240 degrees azimuth --&gt; -79.226760,35.601040,0 
+&lt;!-- 239 degrees azimuth --&gt; -79.219670,35.590360,0 
+&lt;!-- 238 degrees azimuth --&gt; -79.212270,35.579800,0 
+&lt;!-- 237 degrees azimuth --&gt; -79.204920,35.569210,0 
+&lt;!-- 236 degrees azimuth --&gt; -79.197890,35.558430,0 
+&lt;!-- 235 degrees azimuth --&gt; -79.190670,35.547700,0 
+&lt;!-- 234 degrees azimuth --&gt; -79.183090,35.537130,0 
+&lt;!-- 233 degrees azimuth --&gt; -79.175010,35.526810,0 
+&lt;!-- 232 degrees azimuth --&gt; -79.166570,35.516670,0 
+&lt;!-- 231 degrees azimuth --&gt; -79.157790,35.506730,0 
+&lt;!-- 230 degrees azimuth --&gt; -79.148780,35.496910,0 
+&lt;!-- 229 degrees azimuth --&gt; -79.139450,35.487300,0 
+&lt;!-- 228 degrees azimuth --&gt; -79.130020,35.477730,0 
+&lt;!-- 227 degrees azimuth --&gt; -79.120630,35.468110,0 
+&lt;!-- 226 degrees azimuth --&gt; -79.111260,35.458440,0 
+&lt;!-- 225 degrees azimuth --&gt; -79.101730,35.448830,0 
+&lt;!-- 224 degrees azimuth --&gt; -79.091760,35.439540,0 
+&lt;!-- 223 degrees azimuth --&gt; -79.081130,35.430770,0 
+&lt;!-- 222 degrees azimuth --&gt; -79.069980,35.422430,0 
+&lt;!-- 221 degrees azimuth --&gt; -79.058500,35.414410,0 
+&lt;!-- 220 degrees azimuth --&gt; -79.046850,35.406550,0 
+&lt;!-- 219 degrees azimuth --&gt; -79.035150,35.398760,0 
+&lt;!-- 218 degrees azimuth --&gt; -79.023340,35.391080,0 
+&lt;!-- 217 degrees azimuth --&gt; -79.011380,35.383580,0 
+&lt;!-- 216 degrees azimuth --&gt; -78.999210,35.376300,0 
+&lt;!-- 215 degrees azimuth --&gt; -78.986840,35.369240,0 
+&lt;!-- 214 degrees azimuth --&gt; -78.974430,35.362260,0 
+&lt;!-- 213 degrees azimuth --&gt; -78.961870,35.355460,0 
+&lt;!-- 212 degrees azimuth --&gt; -78.949300,35.348670,0 
+&lt;!-- 211 degrees azimuth --&gt; -78.936680,35.341940,0 
+&lt;!-- 210 degrees azimuth --&gt; -78.923950,35.335340,0 
+&lt;!-- 209 degrees azimuth --&gt; -78.911210,35.328740,0 
+&lt;!-- 208 degrees azimuth --&gt; -78.898350,35.322260,0 
+&lt;!-- 207 degrees azimuth --&gt; -78.885320,35.316010,0 
+&lt;!-- 206 degrees azimuth --&gt; -78.872000,35.310190,0 
+&lt;!-- 205 degrees azimuth --&gt; -78.858550,35.304550,0 
+&lt;!-- 204 degrees azimuth --&gt; -78.845090,35.298920,0 
+&lt;!-- 203 degrees azimuth --&gt; -78.831570,35.293360,0 
+&lt;!-- 202 degrees azimuth --&gt; -78.817920,35.287990,0 
+&lt;!-- 201 degrees azimuth --&gt; -78.803940,35.283230,0 
+&lt;!-- 200 degrees azimuth --&gt; -78.789720,35.278990,0 
+&lt;!-- 199 degrees azimuth --&gt; -78.775330,35.275130,0 
+&lt;!-- 198 degrees azimuth --&gt; -78.760820,35.271610,0 
+&lt;!-- 197 degrees azimuth --&gt; -78.746300,35.268160,0 
+&lt;!-- 196 degrees azimuth --&gt; -78.731720,35.264930,0 
+&lt;!-- 195 degrees azimuth --&gt; -78.717080,35.261910,0 
+&lt;!-- 194 degrees azimuth --&gt; -78.702350,35.259220,0 
+&lt;!-- 193 degrees azimuth --&gt; -78.687560,35.256800,0 
+&lt;!-- 192 degrees azimuth --&gt; -78.672720,35.254670,0 
+&lt;!-- 191 degrees azimuth --&gt; -78.657860,35.252680,0 
+&lt;!-- 190 degrees azimuth --&gt; -78.643000,35.250840,0 
+&lt;!-- 189 degrees azimuth --&gt; -78.628120,35.249140,0 
+&lt;!-- 188 degrees azimuth --&gt; -78.613240,35.247590,0 
+&lt;!-- 187 degrees azimuth --&gt; -78.598330,35.246260,0 
+&lt;!-- 186 degrees azimuth --&gt; -78.583410,35.245130,0 
+&lt;!-- 185 degrees azimuth --&gt; -78.568440,35.244550,0 
+&lt;!-- 184 degrees azimuth --&gt; -78.553460,35.244310,0 
+&lt;!-- 183 degrees azimuth --&gt; -78.538480,35.244410,0 
+&lt;!-- 182 degrees azimuth --&gt; -78.523530,35.244730,0 
+&lt;!-- 181 degrees azimuth --&gt; -78.508610,35.245260,0 
+&lt;!-- 180 degrees azimuth --&gt; -78.493730,35.245870,0 
+&lt;!-- 179 degrees azimuth --&gt; -78.478890,35.246690,0 
+&lt;!-- 178 degrees azimuth --&gt; -78.464080,35.247650,0 
+&lt;!-- 177 degrees azimuth --&gt; -78.449320,35.248820,0 
+&lt;!-- 176 degrees azimuth --&gt; -78.434590,35.250070,0 
+&lt;!-- 175 degrees azimuth --&gt; -78.419900,35.251450,0 
+&lt;!-- 174 degrees azimuth --&gt; -78.405240,35.252980,0 
+&lt;!-- 173 degrees azimuth --&gt; -78.390570,35.254190,0 
+&lt;!-- 172 degrees azimuth --&gt; -78.375940,35.255670,0 
+&lt;!-- 171 degrees azimuth --&gt; -78.361400,35.257760,0 
+&lt;!-- 170 degrees azimuth --&gt; -78.346980,35.260300,0 
+&lt;!-- 169 degrees azimuth --&gt; -78.332600,35.262920,0 
+&lt;!-- 168 degrees azimuth --&gt; -78.318260,35.265600,0 
+&lt;!-- 167 degrees azimuth --&gt; -78.304040,35.268680,0 
+&lt;!-- 166 degrees azimuth --&gt; -78.289960,35.272160,0 
+&lt;!-- 165 degrees azimuth --&gt; -78.275990,35.275890,0 
+&lt;!-- 164 degrees azimuth --&gt; -78.262000,35.279430,0 
+&lt;!-- 163 degrees azimuth --&gt; -78.248000,35.282910,0 
+&lt;!-- 162 degrees azimuth --&gt; -78.234050,35.286460,0 
+&lt;!-- 161 degrees azimuth --&gt; -78.220150,35.290150,0 
+&lt;!-- 160 degrees azimuth --&gt; -78.206140,35.293590,0 
+&lt;!-- 159 degrees azimuth --&gt; -78.192020,35.296790,0 
+&lt;!-- 158 degrees azimuth --&gt; -78.177890,35.300080,0 
+&lt;!-- 157 degrees azimuth --&gt; -78.163960,35.303880,0 
+&lt;!-- 156 degrees azimuth --&gt; -78.150290,35.308250,0 
+&lt;!-- 155 degrees azimuth --&gt; -78.136750,35.312860,0 
+&lt;!-- 154 degrees azimuth --&gt; -78.123440,35.317910,0 
+&lt;!-- 153 degrees azimuth --&gt; -78.110410,35.323440,0 
+&lt;!-- 152 degrees azimuth --&gt; -78.097690,35.329450,0 
+&lt;!-- 151 degrees azimuth --&gt; -78.085120,35.335630,0 
+&lt;!-- 150 degrees azimuth --&gt; -78.072540,35.341750,0 
+&lt;!-- 149 degrees azimuth --&gt; -78.059930,35.347810,0 
+&lt;!-- 148 degrees azimuth --&gt; -78.047420,35.353990,0 
+&lt;!-- 147 degrees azimuth --&gt; -78.034920,35.360170,0 
+&lt;!-- 146 degrees azimuth --&gt; -78.022560,35.366530,0 
+&lt;!-- 145 degrees azimuth --&gt; -78.010370,35.373120,0 
+&lt;!-- 144 degrees azimuth --&gt; -77.998320,35.379880,0 
+&lt;!-- 143 degrees azimuth --&gt; -77.986280,35.386650,0 
+&lt;!-- 142 degrees azimuth --&gt; -77.974290,35.393490,0 
+&lt;!-- 141 degrees azimuth --&gt; -77.962280,35.400330,0 
+&lt;!-- 140 degrees azimuth --&gt; -77.950370,35.407300,0 
+&lt;!-- 139 degrees azimuth --&gt; -77.938540,35.414390,0 
+&lt;!-- 138 degrees azimuth --&gt; -77.926910,35.421710,0 
+&lt;!-- 137 degrees azimuth --&gt; -77.915590,35.429340,0 
+&lt;!-- 136 degrees azimuth --&gt; -77.904590,35.437280,0 
+&lt;!-- 135 degrees azimuth --&gt; -77.893810,35.445420,0 
+&lt;!-- 134 degrees azimuth --&gt; -77.883320,35.453810,0 
+&lt;!-- 133 degrees azimuth --&gt; -77.872900,35.462260,0 
+&lt;!-- 132 degrees azimuth --&gt; -77.862470,35.470710,0 
+&lt;!-- 131 degrees azimuth --&gt; -77.852170,35.479270,0 
+&lt;!-- 130 degrees azimuth --&gt; -77.841920,35.487890,0 
+&lt;!-- 129 degrees azimuth --&gt; -77.831850,35.496660,0 
+&lt;!-- 128 degrees azimuth --&gt; -77.822020,35.505620,0 
+&lt;!-- 127 degrees azimuth --&gt; -77.812500,35.514800,0 
+&lt;!-- 126 degrees azimuth --&gt; -77.803240,35.524160,0 
+&lt;!-- 125 degrees azimuth --&gt; -77.794310,35.533730,0 
+&lt;!-- 124 degrees azimuth --&gt; -77.785520,35.543390,0 
+&lt;!-- 123 degrees azimuth --&gt; -77.776800,35.553100,0 
+&lt;!-- 122 degrees azimuth --&gt; -77.768350,35.562970,0 
+&lt;!-- 121 degrees azimuth --&gt; -77.760110,35.572960,0 
+&lt;!-- 120 degrees azimuth --&gt; -77.752220,35.583140,0 
+&lt;!-- 119 degrees azimuth --&gt; -77.744610,35.593460,0 
+&lt;!-- 118 degrees azimuth --&gt; -77.737160,35.603860,0 
+&lt;!-- 117 degrees azimuth --&gt; -77.729930,35.614360,0 
+&lt;!-- 116 degrees azimuth --&gt; -77.722920,35.624960,0 
+&lt;!-- 115 degrees azimuth --&gt; -77.716130,35.635660,0 
+&lt;!-- 114 degrees azimuth --&gt; -77.709650,35.646480,0 
+&lt;!-- 113 degrees azimuth --&gt; -77.703400,35.657400,0 
+&lt;!-- 112 degrees azimuth --&gt; -77.697540,35.668450,0 
+&lt;!-- 111 degrees azimuth --&gt; -77.691980,35.679610,0 
+&lt;!-- 110 degrees azimuth --&gt; -77.686900,35.690910,0 
+&lt;!-- 109 degrees azimuth --&gt; -77.682130,35.702300,0 
+&lt;!-- 108 degrees azimuth --&gt; -77.677690,35.713770,0 
+&lt;!-- 107 degrees azimuth --&gt; -77.673650,35.725340,0 
+&lt;!-- 106 degrees azimuth --&gt; -77.669710,35.736900,0 
+&lt;!-- 105 degrees azimuth --&gt; -77.666020,35.748520,0 
+&lt;!-- 104 degrees azimuth --&gt; -77.662270,35.760100,0 
+&lt;!-- 103 degrees azimuth --&gt; -77.658700,35.771720,0 
+&lt;!-- 102 degrees azimuth --&gt; -77.655290,35.783370,0 
+&lt;!-- 101 degrees azimuth --&gt; -77.652210,35.795070,0 
+&lt;!-- 100 degrees azimuth --&gt; -77.649470,35.806830,0 
+&lt;!-- 99 degrees azimuth --&gt; -77.647140,35.818640,0 
+&lt;!-- 98 degrees azimuth --&gt; -77.645140,35.830480,0 
+&lt;!-- 97 degrees azimuth --&gt; -77.643400,35.842350,0 
+&lt;!-- 96 degrees azimuth --&gt; -77.642160,35.854260,0 
+&lt;!-- 95 degrees azimuth --&gt; -77.641260,35.866170,0 
+&lt;!-- 94 degrees azimuth --&gt; -77.640860,35.878110,0 
+&lt;!-- 93 degrees azimuth --&gt; -77.640880,35.890040,0 
+&lt;!-- 92 degrees azimuth --&gt; -77.641000,35.901950,0 
+&lt;!-- 91 degrees azimuth --&gt; -77.640560,35.913800,0 
+&lt;!-- 90 degrees azimuth --&gt; -77.640050,35.925650,0 
+&lt;!-- 89 degrees azimuth --&gt; -77.639880,35.937510,0 
+&lt;!-- 88 degrees azimuth --&gt; -77.639880,35.949370,0 
+&lt;!-- 87 degrees azimuth --&gt; -77.640140,35.961220,0 
+&lt;!-- 86 degrees azimuth --&gt; -77.640820,35.973060,0 
+&lt;!-- 85 degrees azimuth --&gt; -77.641670,35.984890,0 
+&lt;!-- 84 degrees azimuth --&gt; -77.642770,35.996710,0 
+&lt;!-- 83 degrees azimuth --&gt; -77.643480,36.008560,0 
+&lt;!-- 82 degrees azimuth --&gt; -77.644210,36.020430,0 
+&lt;!-- 81 degrees azimuth --&gt; -77.645110,36.032310,0 
+&lt;!-- 80 degrees azimuth --&gt; -77.646590,36.044140,0 
+&lt;!-- 79 degrees azimuth --&gt; -77.648570,36.055930,0 
+&lt;!-- 78 degrees azimuth --&gt; -77.650890,36.067680,0 
+&lt;!-- 77 degrees azimuth --&gt; -77.653780,36.079350,0 
+&lt;!-- 76 degrees azimuth --&gt; -77.657330,36.090900,0 
+&lt;!-- 75 degrees azimuth --&gt; -77.660960,36.102430,0 
+&lt;!-- 74 degrees azimuth --&gt; -77.664530,36.113960,0 
+&lt;!-- 73 degrees azimuth --&gt; -77.667870,36.125540,0 
+&lt;!-- 72 degrees azimuth --&gt; -77.671150,36.137160,0 
+&lt;!-- 71 degrees azimuth --&gt; -77.674610,36.148770,0 
+&lt;!-- 70 degrees azimuth --&gt; -77.678480,36.160290,0 
+&lt;!-- 69 degrees azimuth --&gt; -77.682680,36.171740,0 
+&lt;!-- 68 degrees azimuth --&gt; -77.687210,36.183120,0 
+&lt;!-- 67 degrees azimuth --&gt; -77.692140,36.194390,0 
+&lt;!-- 66 degrees azimuth --&gt; -77.697470,36.205540,0 
+&lt;!-- 65 degrees azimuth --&gt; -77.703200,36.216570,0 
+&lt;!-- 64 degrees azimuth --&gt; -77.709240,36.227490,0 
+&lt;!-- 63 degrees azimuth --&gt; -77.715660,36.238260,0 
+&lt;!-- 62 degrees azimuth --&gt; -77.722460,36.248880,0 
+&lt;!-- 61 degrees azimuth --&gt; -77.729850,36.259250,0 
+&lt;!-- 60 degrees azimuth --&gt; -77.737750,36.269370,0 
+&lt;!-- 59 degrees azimuth --&gt; -77.745860,36.279370,0 
+&lt;!-- 58 degrees azimuth --&gt; -77.754040,36.289310,0 
+&lt;!-- 57 degrees azimuth --&gt; -77.762080,36.299290,0 
+&lt;!-- 56 degrees azimuth --&gt; -77.770050,36.309290,0 
+&lt;!-- 55 degrees azimuth --&gt; -77.777900,36.319360,0 
+&lt;!-- 54 degrees azimuth --&gt; -77.785700,36.329470,0 
+&lt;!-- 53 degrees azimuth --&gt; -77.793660,36.339510,0 
+&lt;!-- 52 degrees azimuth --&gt; -77.801780,36.349490,0 
+&lt;!-- 51 degrees azimuth --&gt; -77.810380,36.359190,0 
+&lt;!-- 50 degrees azimuth --&gt; -77.819450,36.368620,0 
+&lt;!-- 49 degrees azimuth --&gt; -77.829050,36.377700,0 
+&lt;!-- 48 degrees azimuth --&gt; -77.838960,36.386560,0 
+&lt;!-- 47 degrees azimuth --&gt; -77.848880,36.395400,0 
+&lt;!-- 46 degrees azimuth --&gt; -77.858810,36.404230,0 
+&lt;!-- 45 degrees azimuth --&gt; -77.868690,36.413110,0 
+&lt;!-- 44 degrees azimuth --&gt; -77.878710,36.421890,0 
+&lt;!-- 43 degrees azimuth --&gt; -77.888980,36.430480,0 
+&lt;!-- 42 degrees azimuth --&gt; -77.899500,36.438890,0 
+&lt;!-- 41 degrees azimuth --&gt; -77.910430,36.446950,0 
+&lt;!-- 40 degrees azimuth --&gt; -77.921800,36.454610,0 
+&lt;!-- 39 degrees azimuth --&gt; -77.933390,36.462050,0 
+&lt;!-- 38 degrees azimuth --&gt; -77.945130,36.469320,0 
+&lt;!-- 37 degrees azimuth --&gt; -77.956820,36.476630,0 
+&lt;!-- 36 degrees azimuth --&gt; -77.968510,36.483920,0 
+&lt;!-- 35 degrees azimuth --&gt; -77.980310,36.491100,0 
+&lt;!-- 34 degrees azimuth --&gt; -77.992460,36.497900,0 
+&lt;!-- 33 degrees azimuth --&gt; -78.004900,36.504360,0 
+&lt;!-- 32 degrees azimuth --&gt; -78.017420,36.510700,0 
+&lt;!-- 31 degrees azimuth --&gt; -78.029940,36.517020,0 
+&lt;!-- 30 degrees azimuth --&gt; -78.042350,36.523500,0 
+&lt;!-- 29 degrees azimuth --&gt; -78.054850,36.529860,0 
+&lt;!-- 28 degrees azimuth --&gt; -78.067700,36.535760,0 
+&lt;!-- 27 degrees azimuth --&gt; -78.080840,36.541250,0 
+&lt;!-- 26 degrees azimuth --&gt; -78.094010,36.546660,0 
+&lt;!-- 25 degrees azimuth --&gt; -78.107010,36.552370,0 
+&lt;!-- 24 degrees azimuth --&gt; -78.119930,36.558240,0 
+&lt;!-- 23 degrees azimuth --&gt; -78.133030,36.563880,0 
+&lt;!-- 22 degrees azimuth --&gt; -78.146520,36.568850,0 
+&lt;!-- 21 degrees azimuth --&gt; -78.160460,36.572970,0 
+&lt;!-- 20 degrees azimuth --&gt; -78.174640,36.576570,0 
+&lt;!-- 19 degrees azimuth --&gt; -78.188870,36.579960,0 
+&lt;!-- 18 degrees azimuth --&gt; -78.203020,36.583470,0 
+&lt;!-- 17 degrees azimuth --&gt; -78.217080,36.587140,0 
+&lt;!-- 16 degrees azimuth --&gt; -78.231080,36.590990,0 
+&lt;!-- 15 degrees azimuth --&gt; -78.245250,36.594390,0 
+&lt;!-- 14 degrees azimuth --&gt; -78.259630,36.597210,0 
+&lt;!-- 13 degrees azimuth --&gt; -78.274210,36.599310,0 
+&lt;!-- 12 degrees azimuth --&gt; -78.288880,36.601010,0 
+&lt;!-- 11 degrees azimuth --&gt; -78.303420,36.603010,0 
+&lt;!-- 10 degrees azimuth --&gt; -78.317880,36.605260,0 
+&lt;!-- 9 degrees azimuth --&gt; -78.332300,36.607690,0 
+&lt;!-- 8 degrees azimuth --&gt; -78.346820,36.609730,0 
+&lt;!-- 7 degrees azimuth --&gt; -78.361430,36.611230,0 
+&lt;!-- 6 degrees azimuth --&gt; -78.376120,36.612260,0 
+&lt;!-- 5 degrees azimuth --&gt; -78.390740,36.613610,0 
+&lt;!-- 4 degrees azimuth --&gt; -78.405360,36.615020,0 
+&lt;!-- 3 degrees azimuth --&gt; -78.420040,36.615950,0 
+&lt;!-- 2 degrees azimuth --&gt; -78.434760,36.616220,0 
+&lt;!-- 1 degrees azimuth --&gt; -78.449490,36.616080,0 
+&lt;!-- 0 degrees azimuth --&gt; -78.464200,36.615730,0 
+         &lt;/coordinates&gt;
+       &lt;/LineString&gt;
+  &lt;/Placemark&gt;
+
+
+    &lt;Style id='hue2'&gt;
+        &lt;LineStyle&gt;
+           &lt;color&gt;779922FF&lt;/color&gt;
+           &lt;!-- RGB color 11FFDF becomes 77DFFF11                       --&gt;
+           &lt;!-- where the two leftmost digits represent opacity (alpha) values, and  --&gt;
+           &lt;!-- where the last six hexadecimal characters represent color as B G R   --&gt;
+           &lt;width&gt;5&lt;/width&gt; &lt;!-- in pixels --&gt;
+        &lt;/LineStyle&gt;
+    &lt;/Style&gt;
+
+  &lt;Placemark id='WCPE-697970    -1'&gt;
+    &lt;name&gt;60 dBu Service contour (alternate color)&lt;/name&gt;
+&lt;visibility&gt;0&lt;/visibility&gt;
+    &lt;styleUrl&gt;#hue2&lt;/styleUrl&gt;
+       &lt;LineString&gt;
+          &lt;tessellate&gt;1&lt;/tessellate&gt;
+          &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+          &lt;coordinates&gt;
+&lt;!-- 360 degrees azimuth --&gt; -78.464200,36.615730,0 
+&lt;!-- 359 degrees azimuth --&gt; -78.478890,36.615630,0 
+&lt;!-- 358 degrees azimuth --&gt; -78.493570,36.615400,0 
+&lt;!-- 357 degrees azimuth --&gt; -78.508230,36.614890,0 
+&lt;!-- 356 degrees azimuth --&gt; -78.522890,36.614300,0 
+&lt;!-- 355 degrees azimuth --&gt; -78.537530,36.613510,0 
+&lt;!-- 354 degrees azimuth --&gt; -78.552160,36.612650,0 
+&lt;!-- 353 degrees azimuth --&gt; -78.566760,36.611510,0 
+&lt;!-- 352 degrees azimuth --&gt; -78.581330,36.610100,0 
+&lt;!-- 351 degrees azimuth --&gt; -78.595890,36.608680,0 
+&lt;!-- 350 degrees azimuth --&gt; -78.610490,36.607380,0 
+&lt;!-- 349 degrees azimuth --&gt; -78.625040,36.605740,0 
+&lt;!-- 348 degrees azimuth --&gt; -78.639480,36.603580,0 
+&lt;!-- 347 degrees azimuth --&gt; -78.653850,36.601140,0 
+&lt;!-- 346 degrees azimuth --&gt; -78.668150,36.598440,0 
+&lt;!-- 345 degrees azimuth --&gt; -78.682380,36.595530,0 
+&lt;!-- 344 degrees azimuth --&gt; -78.696560,36.592500,0 
+&lt;!-- 343 degrees azimuth --&gt; -78.710700,36.589320,0 
+&lt;!-- 342 degrees azimuth --&gt; -78.724660,36.585690,0 
+&lt;!-- 341 degrees azimuth --&gt; -78.738390,36.581490,0 
+&lt;!-- 340 degrees azimuth --&gt; -78.751870,36.576790,0 
+&lt;!-- 339 degrees azimuth --&gt; -78.765280,36.572030,0 
+&lt;!-- 338 degrees azimuth --&gt; -78.778710,36.567390,0 
+&lt;!-- 337 degrees azimuth --&gt; -78.792340,36.563180,0 
+&lt;!-- 336 degrees azimuth --&gt; -78.806140,36.559260,0 
+&lt;!-- 335 degrees azimuth --&gt; -78.819900,36.555210,0 
+&lt;!-- 334 degrees azimuth --&gt; -78.833540,36.550890,0 
+&lt;!-- 333 degrees azimuth --&gt; -78.847100,36.546380,0 
+&lt;!-- 332 degrees azimuth --&gt; -78.860570,36.541670,0 
+&lt;!-- 331 degrees azimuth --&gt; -78.873870,36.536650,0 
+&lt;!-- 330 degrees azimuth --&gt; -78.887100,36.531500,0 
+&lt;!-- 329 degrees azimuth --&gt; -78.900280,36.526210,0 
+&lt;!-- 328 degrees azimuth --&gt; -78.913220,36.520560,0 
+&lt;!-- 327 degrees azimuth --&gt; -78.925770,36.514390,0 
+&lt;!-- 326 degrees azimuth --&gt; -78.938010,36.507830,0 
+&lt;!-- 325 degrees azimuth --&gt; -78.950100,36.501090,0 
+&lt;!-- 324 degrees azimuth --&gt; -78.962140,36.494290,0 
+&lt;!-- 323 degrees azimuth --&gt; -78.974110,36.487430,0 
+&lt;!-- 322 degrees azimuth --&gt; -78.986180,36.480660,0 
+&lt;!-- 321 degrees azimuth --&gt; -78.998370,36.473980,0 
+&lt;!-- 320 degrees azimuth --&gt; -79.010260,36.466970,0 
+&lt;!-- 319 degrees azimuth --&gt; -79.021840,36.459630,0 
+&lt;!-- 318 degrees azimuth --&gt; -79.033320,36.452180,0 
+&lt;!-- 317 degrees azimuth --&gt; -79.045090,36.444950,0 
+&lt;!-- 316 degrees azimuth --&gt; -79.056760,36.437590,0 
+&lt;!-- 315 degrees azimuth --&gt; -79.067940,36.429780,0 
+&lt;!-- 314 degrees azimuth --&gt; -79.078550,36.421470,0 
+&lt;!-- 313 degrees azimuth --&gt; -79.089150,36.413150,0 
+&lt;!-- 312 degrees azimuth --&gt; -79.100120,36.405080,0 
+&lt;!-- 311 degrees azimuth --&gt; -79.111100,36.396980,0 
+&lt;!-- 310 degrees azimuth --&gt; -79.121680,36.388530,0 
+&lt;!-- 309 degrees azimuth --&gt; -79.131700,36.379680,0 
+&lt;!-- 308 degrees azimuth --&gt; -79.141400,36.370590,0 
+&lt;!-- 307 degrees azimuth --&gt; -79.150970,36.361410,0 
+&lt;!-- 306 degrees azimuth --&gt; -79.160270,36.352040,0 
+&lt;!-- 305 degrees azimuth --&gt; -79.169450,36.342580,0 
+&lt;!-- 304 degrees azimuth --&gt; -79.178480,36.333030,0 
+&lt;!-- 303 degrees azimuth --&gt; -79.187580,36.323480,0 
+&lt;!-- 302 degrees azimuth --&gt; -79.196420,36.313770,0 
+&lt;!-- 301 degrees azimuth --&gt; -79.204970,36.303880,0 
+&lt;!-- 300 degrees azimuth --&gt; -79.213100,36.293770,0 
+&lt;!-- 299 degrees azimuth --&gt; -79.220810,36.283440,0 
+&lt;!-- 298 degrees azimuth --&gt; -79.228280,36.273000,0 
+&lt;!-- 297 degrees azimuth --&gt; -79.235680,36.262510,0 
+&lt;!-- 296 degrees azimuth --&gt; -79.243140,36.252040,0 
+&lt;!-- 295 degrees azimuth --&gt; -79.250380,36.241450,0 
+&lt;!-- 294 degrees azimuth --&gt; -79.257310,36.230720,0 
+&lt;!-- 293 degrees azimuth --&gt; -79.263570,36.219730,0 
+&lt;!-- 292 degrees azimuth --&gt; -79.269130,36.208500,0 
+&lt;!-- 291 degrees azimuth --&gt; -79.274370,36.197170,0 
+&lt;!-- 290 degrees azimuth --&gt; -79.279750,36.185890,0 
+&lt;!-- 289 degrees azimuth --&gt; -79.285260,36.174650,0 
+&lt;!-- 288 degrees azimuth --&gt; -79.290530,36.163320,0 
+&lt;!-- 287 degrees azimuth --&gt; -79.295320,36.151860,0 
+&lt;!-- 286 degrees azimuth --&gt; -79.300330,36.140450,0 
+&lt;!-- 285 degrees azimuth --&gt; -79.305800,36.129110,0 
+&lt;!-- 284 degrees azimuth --&gt; -79.311430,36.117760,0 
+&lt;!-- 283 degrees azimuth --&gt; -79.316900,36.106320,0 
+&lt;!-- 282 degrees azimuth --&gt; -79.321000,36.094590,0 
+&lt;!-- 281 degrees azimuth --&gt; -79.323820,36.082610,0 
+&lt;!-- 280 degrees azimuth --&gt; -79.325500,36.070470,0 
+&lt;!-- 279 degrees azimuth --&gt; -79.326900,36.058330,0 
+&lt;!-- 278 degrees azimuth --&gt; -79.328370,36.046220,0 
+&lt;!-- 277 degrees azimuth --&gt; -79.329560,36.034110,0 
+&lt;!-- 276 degrees azimuth --&gt; -79.331150,36.022050,0 
+&lt;!-- 275 degrees azimuth --&gt; -79.331420,36.009900,0 
+&lt;!-- 274 degrees azimuth --&gt; -79.331420,35.997760,0 
+&lt;!-- 273 degrees azimuth --&gt; -79.331890,35.985680,0 
+&lt;!-- 272 degrees azimuth --&gt; -79.332510,35.973610,0 
+&lt;!-- 271 degrees azimuth --&gt; -79.333360,35.961550,0 
+&lt;!-- 270 degrees azimuth --&gt; -79.333940,35.949480,0 
+&lt;!-- 269 degrees azimuth --&gt; -79.334350,35.937390,0 
+&lt;!-- 268 degrees azimuth --&gt; -79.334010,35.925310,0 
+&lt;!-- 267 degrees azimuth --&gt; -79.333000,35.913250,0 
+&lt;!-- 266 degrees azimuth --&gt; -79.331730,35.901210,0 
+&lt;!-- 265 degrees azimuth --&gt; -79.330450,35.889180,0 
+&lt;!-- 264 degrees azimuth --&gt; -79.329470,35.877130,0 
+&lt;!-- 263 degrees azimuth --&gt; -79.328560,35.865060,0 
+&lt;!-- 262 degrees azimuth --&gt; -79.326830,35.853060,0 
+&lt;!-- 261 degrees azimuth --&gt; -79.324590,35.841110,0 
+&lt;!-- 260 degrees azimuth --&gt; -79.321860,35.829230,0 
+&lt;!-- 259 degrees azimuth --&gt; -79.318400,35.817470,0 
+&lt;!-- 258 degrees azimuth --&gt; -79.314440,35.805810,0 
+&lt;!-- 257 degrees azimuth --&gt; -79.310720,35.794140,0 
+&lt;!-- 256 degrees azimuth --&gt; -79.307310,35.782430,0 
+&lt;!-- 255 degrees azimuth --&gt; -79.303960,35.770700,0 
+&lt;!-- 254 degrees azimuth --&gt; -79.300360,35.759010,0 
+&lt;!-- 253 degrees azimuth --&gt; -79.296430,35.747400,0 
+&lt;!-- 252 degrees azimuth --&gt; -79.291940,35.735910,0 
+&lt;!-- 251 degrees azimuth --&gt; -79.287360,35.724460,0 
+&lt;!-- 250 degrees azimuth --&gt; -79.282690,35.713020,0 
+&lt;!-- 249 degrees azimuth --&gt; -79.277700,35.701680,0 
+&lt;!-- 248 degrees azimuth --&gt; -79.272540,35.690380,0 
+&lt;!-- 247 degrees azimuth --&gt; -79.267370,35.679080,0 
+&lt;!-- 246 degrees azimuth --&gt; -79.262180,35.667770,0 
+&lt;!-- 245 degrees azimuth --&gt; -79.256960,35.656440,0 
+&lt;!-- 244 degrees azimuth --&gt; -79.251200,35.645290,0 
+&lt;!-- 243 degrees azimuth --&gt; -79.245280,35.634190,0 
+&lt;!-- 242 degrees azimuth --&gt; -79.239320,35.623080,0 
+&lt;!-- 241 degrees azimuth --&gt; -79.233340,35.611940,0 
+&lt;!-- 240 degrees azimuth --&gt; -79.226760,35.601040,0 
+&lt;!-- 239 degrees azimuth --&gt; -79.219670,35.590360,0 
+&lt;!-- 238 degrees azimuth --&gt; -79.212270,35.579800,0 
+&lt;!-- 237 degrees azimuth --&gt; -79.204920,35.569210,0 
+&lt;!-- 236 degrees azimuth --&gt; -79.197890,35.558430,0 
+&lt;!-- 235 degrees azimuth --&gt; -79.190670,35.547700,0 
+&lt;!-- 234 degrees azimuth --&gt; -79.183090,35.537130,0 
+&lt;!-- 233 degrees azimuth --&gt; -79.175010,35.526810,0 
+&lt;!-- 232 degrees azimuth --&gt; -79.166570,35.516670,0 
+&lt;!-- 231 degrees azimuth --&gt; -79.157790,35.506730,0 
+&lt;!-- 230 degrees azimuth --&gt; -79.148780,35.496910,0 
+&lt;!-- 229 degrees azimuth --&gt; -79.139450,35.487300,0 
+&lt;!-- 228 degrees azimuth --&gt; -79.130020,35.477730,0 
+&lt;!-- 227 degrees azimuth --&gt; -79.120630,35.468110,0 
+&lt;!-- 226 degrees azimuth --&gt; -79.111260,35.458440,0 
+&lt;!-- 225 degrees azimuth --&gt; -79.101730,35.448830,0 
+&lt;!-- 224 degrees azimuth --&gt; -79.091760,35.439540,0 
+&lt;!-- 223 degrees azimuth --&gt; -79.081130,35.430770,0 
+&lt;!-- 222 degrees azimuth --&gt; -79.069980,35.422430,0 
+&lt;!-- 221 degrees azimuth --&gt; -79.058500,35.414410,0 
+&lt;!-- 220 degrees azimuth --&gt; -79.046850,35.406550,0 
+&lt;!-- 219 degrees azimuth --&gt; -79.035150,35.398760,0 
+&lt;!-- 218 degrees azimuth --&gt; -79.023340,35.391080,0 
+&lt;!-- 217 degrees azimuth --&gt; -79.011380,35.383580,0 
+&lt;!-- 216 degrees azimuth --&gt; -78.999210,35.376300,0 
+&lt;!-- 215 degrees azimuth --&gt; -78.986840,35.369240,0 
+&lt;!-- 214 degrees azimuth --&gt; -78.974430,35.362260,0 
+&lt;!-- 213 degrees azimuth --&gt; -78.961870,35.355460,0 
+&lt;!-- 212 degrees azimuth --&gt; -78.949300,35.348670,0 
+&lt;!-- 211 degrees azimuth --&gt; -78.936680,35.341940,0 
+&lt;!-- 210 degrees azimuth --&gt; -78.923950,35.335340,0 
+&lt;!-- 209 degrees azimuth --&gt; -78.911210,35.328740,0 
+&lt;!-- 208 degrees azimuth --&gt; -78.898350,35.322260,0 
+&lt;!-- 207 degrees azimuth --&gt; -78.885320,35.316010,0 
+&lt;!-- 206 degrees azimuth --&gt; -78.872000,35.310190,0 
+&lt;!-- 205 degrees azimuth --&gt; -78.858550,35.304550,0 
+&lt;!-- 204 degrees azimuth --&gt; -78.845090,35.298920,0 
+&lt;!-- 203 degrees azimuth --&gt; -78.831570,35.293360,0 
+&lt;!-- 202 degrees azimuth --&gt; -78.817920,35.287990,0 
+&lt;!-- 201 degrees azimuth --&gt; -78.803940,35.283230,0 
+&lt;!-- 200 degrees azimuth --&gt; -78.789720,35.278990,0 
+&lt;!-- 199 degrees azimuth --&gt; -78.775330,35.275130,0 
+&lt;!-- 198 degrees azimuth --&gt; -78.760820,35.271610,0 
+&lt;!-- 197 degrees azimuth --&gt; -78.746300,35.268160,0 
+&lt;!-- 196 degrees azimuth --&gt; -78.731720,35.264930,0 
+&lt;!-- 195 degrees azimuth --&gt; -78.717080,35.261910,0 
+&lt;!-- 194 degrees azimuth --&gt; -78.702350,35.259220,0 
+&lt;!-- 193 degrees azimuth --&gt; -78.687560,35.256800,0 
+&lt;!-- 192 degrees azimuth --&gt; -78.672720,35.254670,0 
+&lt;!-- 191 degrees azimuth --&gt; -78.657860,35.252680,0 
+&lt;!-- 190 degrees azimuth --&gt; -78.643000,35.250840,0 
+&lt;!-- 189 degrees azimuth --&gt; -78.628120,35.249140,0 
+&lt;!-- 188 degrees azimuth --&gt; -78.613240,35.247590,0 
+&lt;!-- 187 degrees azimuth --&gt; -78.598330,35.246260,0 
+&lt;!-- 186 degrees azimuth --&gt; -78.583410,35.245130,0 
+&lt;!-- 185 degrees azimuth --&gt; -78.568440,35.244550,0 
+&lt;!-- 184 degrees azimuth --&gt; -78.553460,35.244310,0 
+&lt;!-- 183 degrees azimuth --&gt; -78.538480,35.244410,0 
+&lt;!-- 182 degrees azimuth --&gt; -78.523530,35.244730,0 
+&lt;!-- 181 degrees azimuth --&gt; -78.508610,35.245260,0 
+&lt;!-- 180 degrees azimuth --&gt; -78.493730,35.245870,0 
+&lt;!-- 179 degrees azimuth --&gt; -78.478890,35.246690,0 
+&lt;!-- 178 degrees azimuth --&gt; -78.464080,35.247650,0 
+&lt;!-- 177 degrees azimuth --&gt; -78.449320,35.248820,0 
+&lt;!-- 176 degrees azimuth --&gt; -78.434590,35.250070,0 
+&lt;!-- 175 degrees azimuth --&gt; -78.419900,35.251450,0 
+&lt;!-- 174 degrees azimuth --&gt; -78.405240,35.252980,0 
+&lt;!-- 173 degrees azimuth --&gt; -78.390570,35.254190,0 
+&lt;!-- 172 degrees azimuth --&gt; -78.375940,35.255670,0 
+&lt;!-- 171 degrees azimuth --&gt; -78.361400,35.257760,0 
+&lt;!-- 170 degrees azimuth --&gt; -78.346980,35.260300,0 
+&lt;!-- 169 degrees azimuth --&gt; -78.332600,35.262920,0 
+&lt;!-- 168 degrees azimuth --&gt; -78.318260,35.265600,0 
+&lt;!-- 167 degrees azimuth --&gt; -78.304040,35.268680,0 
+&lt;!-- 166 degrees azimuth --&gt; -78.289960,35.272160,0 
+&lt;!-- 165 degrees azimuth --&gt; -78.275990,35.275890,0 
+&lt;!-- 164 degrees azimuth --&gt; -78.262000,35.279430,0 
+&lt;!-- 163 degrees azimuth --&gt; -78.248000,35.282910,0 
+&lt;!-- 162 degrees azimuth --&gt; -78.234050,35.286460,0 
+&lt;!-- 161 degrees azimuth --&gt; -78.220150,35.290150,0 
+&lt;!-- 160 degrees azimuth --&gt; -78.206140,35.293590,0 
+&lt;!-- 159 degrees azimuth --&gt; -78.192020,35.296790,0 
+&lt;!-- 158 degrees azimuth --&gt; -78.177890,35.300080,0 
+&lt;!-- 157 degrees azimuth --&gt; -78.163960,35.303880,0 
+&lt;!-- 156 degrees azimuth --&gt; -78.150290,35.308250,0 
+&lt;!-- 155 degrees azimuth --&gt; -78.136750,35.312860,0 
+&lt;!-- 154 degrees azimuth --&gt; -78.123440,35.317910,0 
+&lt;!-- 153 degrees azimuth --&gt; -78.110410,35.323440,0 
+&lt;!-- 152 degrees azimuth --&gt; -78.097690,35.329450,0 
+&lt;!-- 151 degrees azimuth --&gt; -78.085120,35.335630,0 
+&lt;!-- 150 degrees azimuth --&gt; -78.072540,35.341750,0 
+&lt;!-- 149 degrees azimuth --&gt; -78.059930,35.347810,0 
+&lt;!-- 148 degrees azimuth --&gt; -78.047420,35.353990,0 
+&lt;!-- 147 degrees azimuth --&gt; -78.034920,35.360170,0 
+&lt;!-- 146 degrees azimuth --&gt; -78.022560,35.366530,0 
+&lt;!-- 145 degrees azimuth --&gt; -78.010370,35.373120,0 
+&lt;!-- 144 degrees azimuth --&gt; -77.998320,35.379880,0 
+&lt;!-- 143 degrees azimuth --&gt; -77.986280,35.386650,0 
+&lt;!-- 142 degrees azimuth --&gt; -77.974290,35.393490,0 
+&lt;!-- 141 degrees azimuth --&gt; -77.962280,35.400330,0 
+&lt;!-- 140 degrees azimuth --&gt; -77.950370,35.407300,0 
+&lt;!-- 139 degrees azimuth --&gt; -77.938540,35.414390,0 
+&lt;!-- 138 degrees azimuth --&gt; -77.926910,35.421710,0 
+&lt;!-- 137 degrees azimuth --&gt; -77.915590,35.429340,0 
+&lt;!-- 136 degrees azimuth --&gt; -77.904590,35.437280,0 
+&lt;!-- 135 degrees azimuth --&gt; -77.893810,35.445420,0 
+&lt;!-- 134 degrees azimuth --&gt; -77.883320,35.453810,0 
+&lt;!-- 133 degrees azimuth --&gt; -77.872900,35.462260,0 
+&lt;!-- 132 degrees azimuth --&gt; -77.862470,35.470710,0 
+&lt;!-- 131 degrees azimuth --&gt; -77.852170,35.479270,0 
+&lt;!-- 130 degrees azimuth --&gt; -77.841920,35.487890,0 
+&lt;!-- 129 degrees azimuth --&gt; -77.831850,35.496660,0 
+&lt;!-- 128 degrees azimuth --&gt; -77.822020,35.505620,0 
+&lt;!-- 127 degrees azimuth --&gt; -77.812500,35.514800,0 
+&lt;!-- 126 degrees azimuth --&gt; -77.803240,35.524160,0 
+&lt;!-- 125 degrees azimuth --&gt; -77.794310,35.533730,0 
+&lt;!-- 124 degrees azimuth --&gt; -77.785520,35.543390,0 
+&lt;!-- 123 degrees azimuth --&gt; -77.776800,35.553100,0 
+&lt;!-- 122 degrees azimuth --&gt; -77.768350,35.562970,0 
+&lt;!-- 121 degrees azimuth --&gt; -77.760110,35.572960,0 
+&lt;!-- 120 degrees azimuth --&gt; -77.752220,35.583140,0 
+&lt;!-- 119 degrees azimuth --&gt; -77.744610,35.593460,0 
+&lt;!-- 118 degrees azimuth --&gt; -77.737160,35.603860,0 
+&lt;!-- 117 degrees azimuth --&gt; -77.729930,35.614360,0 
+&lt;!-- 116 degrees azimuth --&gt; -77.722920,35.624960,0 
+&lt;!-- 115 degrees azimuth --&gt; -77.716130,35.635660,0 
+&lt;!-- 114 degrees azimuth --&gt; -77.709650,35.646480,0 
+&lt;!-- 113 degrees azimuth --&gt; -77.703400,35.657400,0 
+&lt;!-- 112 degrees azimuth --&gt; -77.697540,35.668450,0 
+&lt;!-- 111 degrees azimuth --&gt; -77.691980,35.679610,0 
+&lt;!-- 110 degrees azimuth --&gt; -77.686900,35.690910,0 
+&lt;!-- 109 degrees azimuth --&gt; -77.682130,35.702300,0 
+&lt;!-- 108 degrees azimuth --&gt; -77.677690,35.713770,0 
+&lt;!-- 107 degrees azimuth --&gt; -77.673650,35.725340,0 
+&lt;!-- 106 degrees azimuth --&gt; -77.669710,35.736900,0 
+&lt;!-- 105 degrees azimuth --&gt; -77.666020,35.748520,0 
+&lt;!-- 104 degrees azimuth --&gt; -77.662270,35.760100,0 
+&lt;!-- 103 degrees azimuth --&gt; -77.658700,35.771720,0 
+&lt;!-- 102 degrees azimuth --&gt; -77.655290,35.783370,0 
+&lt;!-- 101 degrees azimuth --&gt; -77.652210,35.795070,0 
+&lt;!-- 100 degrees azimuth --&gt; -77.649470,35.806830,0 
+&lt;!-- 99 degrees azimuth --&gt; -77.647140,35.818640,0 
+&lt;!-- 98 degrees azimuth --&gt; -77.645140,35.830480,0 
+&lt;!-- 97 degrees azimuth --&gt; -77.643400,35.842350,0 
+&lt;!-- 96 degrees azimuth --&gt; -77.642160,35.854260,0 
+&lt;!-- 95 degrees azimuth --&gt; -77.641260,35.866170,0 
+&lt;!-- 94 degrees azimuth --&gt; -77.640860,35.878110,0 
+&lt;!-- 93 degrees azimuth --&gt; -77.640880,35.890040,0 
+&lt;!-- 92 degrees azimuth --&gt; -77.641000,35.901950,0 
+&lt;!-- 91 degrees azimuth --&gt; -77.640560,35.913800,0 
+&lt;!-- 90 degrees azimuth --&gt; -77.640050,35.925650,0 
+&lt;!-- 89 degrees azimuth --&gt; -77.639880,35.937510,0 
+&lt;!-- 88 degrees azimuth --&gt; -77.639880,35.949370,0 
+&lt;!-- 87 degrees azimuth --&gt; -77.640140,35.961220,0 
+&lt;!-- 86 degrees azimuth --&gt; -77.640820,35.973060,0 
+&lt;!-- 85 degrees azimuth --&gt; -77.641670,35.984890,0 
+&lt;!-- 84 degrees azimuth --&gt; -77.642770,35.996710,0 
+&lt;!-- 83 degrees azimuth --&gt; -77.643480,36.008560,0 
+&lt;!-- 82 degrees azimuth --&gt; -77.644210,36.020430,0 
+&lt;!-- 81 degrees azimuth --&gt; -77.645110,36.032310,0 
+&lt;!-- 80 degrees azimuth --&gt; -77.646590,36.044140,0 
+&lt;!-- 79 degrees azimuth --&gt; -77.648570,36.055930,0 
+&lt;!-- 78 degrees azimuth --&gt; -77.650890,36.067680,0 
+&lt;!-- 77 degrees azimuth --&gt; -77.653780,36.079350,0 
+&lt;!-- 76 degrees azimuth --&gt; -77.657330,36.090900,0 
+&lt;!-- 75 degrees azimuth --&gt; -77.660960,36.102430,0 
+&lt;!-- 74 degrees azimuth --&gt; -77.664530,36.113960,0 
+&lt;!-- 73 degrees azimuth --&gt; -77.667870,36.125540,0 
+&lt;!-- 72 degrees azimuth --&gt; -77.671150,36.137160,0 
+&lt;!-- 71 degrees azimuth --&gt; -77.674610,36.148770,0 
+&lt;!-- 70 degrees azimuth --&gt; -77.678480,36.160290,0 
+&lt;!-- 69 degrees azimuth --&gt; -77.682680,36.171740,0 
+&lt;!-- 68 degrees azimuth --&gt; -77.687210,36.183120,0 
+&lt;!-- 67 degrees azimuth --&gt; -77.692140,36.194390,0 
+&lt;!-- 66 degrees azimuth --&gt; -77.697470,36.205540,0 
+&lt;!-- 65 degrees azimuth --&gt; -77.703200,36.216570,0 
+&lt;!-- 64 degrees azimuth --&gt; -77.709240,36.227490,0 
+&lt;!-- 63 degrees azimuth --&gt; -77.715660,36.238260,0 
+&lt;!-- 62 degrees azimuth --&gt; -77.722460,36.248880,0 
+&lt;!-- 61 degrees azimuth --&gt; -77.729850,36.259250,0 
+&lt;!-- 60 degrees azimuth --&gt; -77.737750,36.269370,0 
+&lt;!-- 59 degrees azimuth --&gt; -77.745860,36.279370,0 
+&lt;!-- 58 degrees azimuth --&gt; -77.754040,36.289310,0 
+&lt;!-- 57 degrees azimuth --&gt; -77.762080,36.299290,0 
+&lt;!-- 56 degrees azimuth --&gt; -77.770050,36.309290,0 
+&lt;!-- 55 degrees azimuth --&gt; -77.777900,36.319360,0 
+&lt;!-- 54 degrees azimuth --&gt; -77.785700,36.329470,0 
+&lt;!-- 53 degrees azimuth --&gt; -77.793660,36.339510,0 
+&lt;!-- 52 degrees azimuth --&gt; -77.801780,36.349490,0 
+&lt;!-- 51 degrees azimuth --&gt; -77.810380,36.359190,0 
+&lt;!-- 50 degrees azimuth --&gt; -77.819450,36.368620,0 
+&lt;!-- 49 degrees azimuth --&gt; -77.829050,36.377700,0 
+&lt;!-- 48 degrees azimuth --&gt; -77.838960,36.386560,0 
+&lt;!-- 47 degrees azimuth --&gt; -77.848880,36.395400,0 
+&lt;!-- 46 degrees azimuth --&gt; -77.858810,36.404230,0 
+&lt;!-- 45 degrees azimuth --&gt; -77.868690,36.413110,0 
+&lt;!-- 44 degrees azimuth --&gt; -77.878710,36.421890,0 
+&lt;!-- 43 degrees azimuth --&gt; -77.888980,36.430480,0 
+&lt;!-- 42 degrees azimuth --&gt; -77.899500,36.438890,0 
+&lt;!-- 41 degrees azimuth --&gt; -77.910430,36.446950,0 
+&lt;!-- 40 degrees azimuth --&gt; -77.921800,36.454610,0 
+&lt;!-- 39 degrees azimuth --&gt; -77.933390,36.462050,0 
+&lt;!-- 38 degrees azimuth --&gt; -77.945130,36.469320,0 
+&lt;!-- 37 degrees azimuth --&gt; -77.956820,36.476630,0 
+&lt;!-- 36 degrees azimuth --&gt; -77.968510,36.483920,0 
+&lt;!-- 35 degrees azimuth --&gt; -77.980310,36.491100,0 
+&lt;!-- 34 degrees azimuth --&gt; -77.992460,36.497900,0 
+&lt;!-- 33 degrees azimuth --&gt; -78.004900,36.504360,0 
+&lt;!-- 32 degrees azimuth --&gt; -78.017420,36.510700,0 
+&lt;!-- 31 degrees azimuth --&gt; -78.029940,36.517020,0 
+&lt;!-- 30 degrees azimuth --&gt; -78.042350,36.523500,0 
+&lt;!-- 29 degrees azimuth --&gt; -78.054850,36.529860,0 
+&lt;!-- 28 degrees azimuth --&gt; -78.067700,36.535760,0 
+&lt;!-- 27 degrees azimuth --&gt; -78.080840,36.541250,0 
+&lt;!-- 26 degrees azimuth --&gt; -78.094010,36.546660,0 
+&lt;!-- 25 degrees azimuth --&gt; -78.107010,36.552370,0 
+&lt;!-- 24 degrees azimuth --&gt; -78.119930,36.558240,0 
+&lt;!-- 23 degrees azimuth --&gt; -78.133030,36.563880,0 
+&lt;!-- 22 degrees azimuth --&gt; -78.146520,36.568850,0 
+&lt;!-- 21 degrees azimuth --&gt; -78.160460,36.572970,0 
+&lt;!-- 20 degrees azimuth --&gt; -78.174640,36.576570,0 
+&lt;!-- 19 degrees azimuth --&gt; -78.188870,36.579960,0 
+&lt;!-- 18 degrees azimuth --&gt; -78.203020,36.583470,0 
+&lt;!-- 17 degrees azimuth --&gt; -78.217080,36.587140,0 
+&lt;!-- 16 degrees azimuth --&gt; -78.231080,36.590990,0 
+&lt;!-- 15 degrees azimuth --&gt; -78.245250,36.594390,0 
+&lt;!-- 14 degrees azimuth --&gt; -78.259630,36.597210,0 
+&lt;!-- 13 degrees azimuth --&gt; -78.274210,36.599310,0 
+&lt;!-- 12 degrees azimuth --&gt; -78.288880,36.601010,0 
+&lt;!-- 11 degrees azimuth --&gt; -78.303420,36.603010,0 
+&lt;!-- 10 degrees azimuth --&gt; -78.317880,36.605260,0 
+&lt;!-- 9 degrees azimuth --&gt; -78.332300,36.607690,0 
+&lt;!-- 8 degrees azimuth --&gt; -78.346820,36.609730,0 
+&lt;!-- 7 degrees azimuth --&gt; -78.361430,36.611230,0 
+&lt;!-- 6 degrees azimuth --&gt; -78.376120,36.612260,0 
+&lt;!-- 5 degrees azimuth --&gt; -78.390740,36.613610,0 
+&lt;!-- 4 degrees azimuth --&gt; -78.405360,36.615020,0 
+&lt;!-- 3 degrees azimuth --&gt; -78.420040,36.615950,0 
+&lt;!-- 2 degrees azimuth --&gt; -78.434760,36.616220,0 
+&lt;!-- 1 degrees azimuth --&gt; -78.449490,36.616080,0 
+&lt;!-- 0 degrees azimuth --&gt; -78.464200,36.615730,0 
+         &lt;/coordinates&gt;
+       &lt;/LineString&gt;
+  &lt;/Placemark&gt;
+
+
+&lt;!--Close document--&gt;
+&lt;/Document&gt;
+&lt;/kml&gt;
+
+
+
+&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</pre></body></html>
